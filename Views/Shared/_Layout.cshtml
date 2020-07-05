@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] | GoBear</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Gobear.css" />
+</head>
+<body>
+    <div class="content-wrapper">
+        <header class="header-navbar">
+            <div class="menu-header d-flex justify-content-between">
+                <div>
+                    <div class="logo-menuheader">
+                        <a href="">
+                            <span>go<span>bear</span></span>
+
+                        </a>
+                    </div>
+                    <div class="title-logoheader">
+                        <a href="">
+                            <span>comparison made easy</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-menuheader">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">Bảo hiểm <i class="fas fa-sort-down"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Thẻ tín dụng <i class="fas fa-sort-down"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Vay <i class="fas fa-sort-down"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Tài khoản <i class="fas fa-sort-down"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Ưu đãi <i class="fas fa-sort-down"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Blog <i class="fas fa-sort-down"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Đăng Nhập</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="body-container">
+            @RenderBody()
+        </div>
+        <footer>
+            <div class="content-wrap-footer">
+                <div class="row">
+                    <div class="col-2">
+                        <ul>
+                            <li>GoBear</li>
+                            <li><a href="#">Câu chuyện của GoBear</a></li>
+                            <li><a href="#">Trò chuyện với GoBear</a></li>
+                            <li><a href="#">Cơ hội nghề nghiệp</a></li>
+                            <li><a href="#">Bộ quy tắc ứng xử</a></li>
+                            <li><a href="#">Góc tin tức</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <ul>
+                            <li>THÔNG TIN</li>
+                            <li><a href="#">Câu hỏi thường gặp</a></li>
+                            <li><a href="#">Sổ tay bảo hiểm</a></li>
+                            <li><a href="#">Sổ tay ngân hàng</a></li>
+                            <li><a href="#">Cổng thông tin bảo hiểm</a></li>
+                            <li><a href="#">Cổng thông tin ngân hàng</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul>
+                            <li>So sánh</li>
+                            <li class="row">
+                                <div class="col-6">
+                                    <ul>
+                                        <li><a href="#">Tài khoản tiền gửi</a></li>
+                                        <li><a href="#">Tài khoản thanh toán</a></li>
+                                        <li><a href="#">Bảo hiểm du lịch</a></li>
+                                        <li><a href="#">Thẻ tín dụng</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul>
+                                        <li><a href="#">Vay tín chấp</a></li>
+                                        <li><a href="#">Vay tiền mặt</a></li>
+                                        <li><a href="#">Vay mua nhà</a></li>
+                                        <li><a href="#">Vay mua xe</a></li>
+                                        <li><a href="#">Vay tiêu dùng thế chấp</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul>
+                            <li>Địa chỉ</li>
+                            <li><span>PHÒNG 4, LẦU 5, THÁP 1, 65 LÊ LỢI
+                                QUẬN 1, TP. HỒ CHÍ MINH</span></li>
+                        </ul>
+                        <ul>
+                            <li>Theo Dõi</li>
+                            <li><i class="fab fa-facebook-square"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/GoBear.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
