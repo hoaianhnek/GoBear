@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using GoBear.Models;
+using System.Net.WebSockets;
 
 namespace GoBear.Controllers
 {
@@ -21,11 +22,18 @@ namespace GoBear.Controllers
         {
             StoreContext context = HttpContext.RequestServices.GetService(typeof(GoBear.Models.StoreContext)) as StoreContext;
             var insurrance = context.GetAllInsu();
-            return new JsonResult(insurrance);
+            var bank = context.GetAllBank();
+            var data = from i in insurrance
+                       join b in bank on i.id_Bank equals b.id_Bank
+                       select new
+                       {
+                           i,
+                           b
+                       };
+            return new JsonResult(data);
         }
         public IActionResult Index()
         {
-            
             return View();
         }
 

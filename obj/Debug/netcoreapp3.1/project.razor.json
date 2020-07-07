@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\GoBear.csproj",
+  "FilePath": "c:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\GoBear.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20521,38 +20521,38 @@
   "RootNamespace": "GoBear",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],

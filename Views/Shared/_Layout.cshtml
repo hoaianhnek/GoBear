@@ -9,6 +9,7 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/Gobear.css" />
+    <link rel="stylesheet" href="~/css/header.css" />
 </head>
 <body>
     <div class="content-wrapper">
@@ -29,26 +30,291 @@
                 </div>
                 <div class="nav-menuheader">
                     <nav>
-                        <ul>
-                            <li>
+                        <ul class="ul-nav-menuhear">
+                            <li class="li-ul-nav-menuhear">
                                 <a href="#">Bảo hiểm <i class="fas fa-sort-down"></i></a>
+                                <div class="child-menu">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-4 child-block-one">
+                                                <h6 class="child-title">So sánh các gói bảo hiểm</h6>
+                                                <ul class="child-list">
+                                                    <li class="child-item">
+                                                        <a href="#">
+                                                            <img src="~/images/plain.PNG" width="40px" height="40px"/>
+                                                            <span>Bảo hiểm du lịch</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="child-item">
+                                                        <a href="#">
+                                                            <img src="~/images/heart.PNG" width="40px" height="40px"/>
+                                                            <span>Bảo hiểm giáo dục</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="child-item">
+                                                        <a href="#">
+                                                            <img src="~/images/home.PNG" width="40px" height="40px"/>
+                                                            <span>Bảo hiểm tích lũy</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="child-item">
+                                                        <a href="#">
+                                                            <img src="~/images/medial.PNG" width="40px" height="40px"/>
+                                                            <span>Bảo hiểm bệnh hiểm nghèo</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-4 child-block-two">
+                                                <h6 class="child-title">Sổ tay</h6>
+                                                <a href="#">
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <img class="img-child-menu" src="~/images/travel.jpg" alt="img" width="120px" height="120px">
+                                                        </div>
+                                                        <div class="col-7 pr-3">
+                                                            <h6>Sổ tay bảo hiểm</h6>
+                                                            <p>Những điều cần biết khi mua bảo hiểm du lịch</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-4 child-block-two">
+                                                <h6 class="child-title">Nổi bật</h6>
+                                                <a href="#">
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <img class="img-child-menu" src="~/images/gobear_gui_tiet_kiem_ngan_hang.jpeg" alt="img" width="120" height="120">
+                                                        </div>
+                                                        <div class="col-7 pr-3">
+                                                            <h6>Bảo hiểm nhân thọ</h6>
+                                                            <p>Vì sao nên mua bảo hiểm nhân thọ khi còn trẻ?</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="li-ul-nav-menuhear">
                                 <a href="#">Thẻ tín dụng <i class="fas fa-sort-down"></i></a>
+                                <div class="child-menu credit-menu">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-5 child-block-one">
+                                                <h6 class="child-title">So sánh thẻ tín dụng</h6>
+                                                <div class="row">
+                                                    <ul class="child-list col-6">
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/card.PNG" width="40px" height="40px"/>
+                                                                <span>Mua sắm</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/plain.PNG" width="40px" height="40px"/>
+                                                                <span>Dặm bay</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/medial.PNG" width="40px" height="40px"/>
+                                                                <span>Bảo hiểm</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/card.PNG" width="40px" height="40px"/>
+                                                                <span>Miễn phí</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="child-list col-6">
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/card.PNG" width="40px" height="40px"/>
+                                                                <span>Trả góp 0%</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/car.PNG" width="40px" height="40px"/>
+                                                                <span>Đi lại</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/card.PNG" width="40px" height="40px"/>
+                                                                <span>Thanh toán online</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-4 child-block-two">
+                                                <h6 class="child-title">Sổ tay</h6>
+                                                <a href="#">
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <img class="img-child-menu" src="~/images/creditcard.jpg" alt="img" width="120px" height="120px">
+                                                        </div>
+                                                        <div class="col-7 pr-3">
+                                                            <h6>Sổ tay thẻ tín dụng</h6>
+                                                            <p>Những điều cần biết khi sử dụng thẻ tín dụng</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-3 child-block-two">
+                                                <h6 class="child-title">Nổi bật</h6>
+                                                <a href="#">
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <img class="img-child-menu" src="~/images/5hanhdongvotinhkhienbanbidanhcapttd.jpg" alt="img" width="120" height="120">
+                                                        </div>
+                                                        <div class="col-7 pr-3">
+                                                            <h6>Thông tin thẻ tín dụng</h6>
+                                                            <p>5 hành động vô tình khiến bạn bị đánh cắp thông tin thẻ</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="li-ul-nav-menuhear">
                                 <a href="#">Vay <i class="fas fa-sort-down"></i></a>
+                                <div class="child-menu credit-menu borring">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-5 child-block-one">
+                                                <h6 class="child-title">So sánh các gói vay</h6>
+                                                <div class="row">
+                                                    <ul class="child-list col-6">
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/borring.PNG" width="40px" height="40px"/>
+                                                                <span>Vay tín chấp</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/car.PNG" width="40px" height="40px"/>
+                                                                <span>Vay mua xe</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/borring.PNG" width="40px" height="40px"/>
+                                                                <span>Vay tiêu dùng thế chấp</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="child-list col-6">
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/borring.PNG" width="40px" height="40px"/>
+                                                                <span>Vay tiền mặt</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/home.PNG" width="40px" height="40px"/>
+                                                                <span>Vay mua nhà</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-4 child-block-two">
+                                                <h6 class="child-title">Sổ tay</h6>
+                                                <a href="#">
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <img class="img-child-menu" src="~/images/loan.jpg" alt="img" width="120px" height="120px">
+                                                        </div>
+                                                        <div class="col-7 pr-3">
+                                                            <h6>Sổ tay vay tín chấp</h6>
+                                                            <p>Những điều cần biết khi vay tín chấp</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-3 child-block-two">
+                                                <h6 class="child-title">Nổi bật</h6>
+                                                <a href="#">
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <img class="img-child-menu" src="~/images/Redesign_1__Blog_New_609x377_ copy 7_square_0.jpg" alt="img" width="120" height="120">
+                                                        </div>
+                                                        <div class="col-7 pr-3">
+                                                            <h6>Nợ xấu</h6>
+                                                            <p>Bí kíp xóa nợ xấu, tín dụng xấu</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
-                            <li>
+                            <li class="li-ul-nav-menuhear">
                                 <a href="#">Tài khoản <i class="fas fa-sort-down"></i></a>
+                                <div class="child-menu account-dropdown">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-7 child-block-one">
+                                                <h6 class="child-title">So sánh tài khoản ngân hàng</h6>
+                                                <div class="row">
+                                                    <ul class="child-list col-6">
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/account.PNG" width="40px" height="40px"/>
+                                                                <span>Tài khoản tiền gửi</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="child-list col-6">
+                                                        <li class="child-item">
+                                                            <a href="#">
+                                                                <img src="~/images/account.PNG" width="40px" height="40px"/>
+                                                                <span>Tài khoản thanh toán</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-5 child-block-two">
+                                                <h6 class="child-title">Nổi bật</h6>
+                                                <a href="#">
+                                                    <div class="row">
+                                                        <div class="col-5">
+                                                            <img class="img-child-menu" src="~/images/blog_2018_newdesign_t10_3.png" alt="img" width="120px" height="120px">
+                                                        </div>
+                                                        <div class="col-7 pr-3">
+                                                            <h6>Thẻ NAPAS</h6>
+                                                            <p>Thẻ NAPAS là gì?</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
-                            <li>
-                                <a href="#">Ưu đãi <i class="fas fa-sort-down"></i></a>
+                            <li class="li-ul-nav-menuhear">
+                                <a href="#">Ưu đãi</a>
                             </li>
-                            <li>
-                                <a href="#">Blog <i class="fas fa-sort-down"></i></a>
+                            <li class="li-ul-nav-menuhear">
+                                <a href="#">Blog</a>
                             </li>
-                            <li>
+                            <li class="li-ul-nav-menuhear">
                                 <a href="#">Đăng Nhập</a>
                             </li>
                         </ul>

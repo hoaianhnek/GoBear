@@ -1,94 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-size: 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-a {
-    color: black;
-}
-ul {
-    list-style-type: none;
-}
-a:hover {
-    text-decoration: none;
-}
-header.header-navbar {
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background: white;
-    background-color: white;
-    transition: all 0.3s;
-}
-header.header-navbar .menu-header {
-    padding: 0 30px;
-}
-header.header-navbar .menu-header> div:first-child {
-    margin: auto 0;
-}
-header.header-navbar .menu-header .logo-menuheader> a> span {
-    font-size: 2em;
-    line-height: 23px;
-    font-family: sans-serif;
-    color:  #05db5c;
-    font-weight: 700;
-}
-header.header-navbar .menu-header .title-logoheader {
-    font-size: 0.7em;
-    line-height: 1.125em;
-}
-header.header-navbar .menu-header .title-logoheader> a {
-    color: #919494;
-}
 
-header.header-navbar .menu-header .logo-menuheader span {
-    color:  black;
-}
-.nav-menuheader ul {
-    list-style-type: none;
-    cursor: pointer;
-}
-.nav-menuheader ul li {
-    display: inline-block;
-    padding: 28px 24px;
-    font-size: 0.875em;
-
-}
-.nav-menuheader ul li a {
-    transition: color 0.3s;
-}
-.nav-menuheader ul li i {
-    vertical-align: top;
-    margin-left: 8px;
-    transition: transform 0.3s ;
-}
-
-.nav-menuheader ul li:last-child a {
-    padding: 10px 16px;
-    background: #05db5c;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 700;
-    transition: all 0.3s;
-}
-.nav-menuheader ul li:hover a{
-    color:  #05db5c;
-}
-.nav-menuheader ul li:last-child:hover a {
-    color: white !important;
-    background-color: #0a6e31;
-}
-.nav-menuheader ul li:hover i {
-    transform: translate(48%, 48%) rotate(-180deg) ;
-}
 .body-container {
     margin-bottom: 100px;
     flex-wrap: wrap;
@@ -223,14 +133,14 @@ div.col-3,div.col-10 {
     height: 100%;
     border-top:none;
 } */
-.compare-dd, .compare-information {
+.compare-dd, .compare-information, .compare-accidents, .medical-cost, .travel_expenses {
     margin-bottom: 30px;
 }
 div.col-3> div {
     margin-top: 0px;
     border-top: none;
 }
-#product-hot div.col-2> span, #product-infomation div.col-2> span, #product-accidents div.col-2> span{
+#product-hot div.col-2 > span, #product-infomation div.col-2 > span, #product-accidents div.col-2 > span, #medical-cost div.col-2 > span, #travel_expenses div.col-2 > span {
     font-size: 1em;
     line-height: 23px;
     font-weight: 700;
@@ -266,7 +176,7 @@ div.col-3> div {
     line-height: 2.5;
     text-align: center;
 }
-.products-info div.col-3:first-child> div> i {
+.products-info div.col-3> div> i.fa-check {
     background: #00dd55;
     border-radius: 50%;
     color: white;
@@ -279,7 +189,7 @@ div.col-3> div {
     line-height: 24px;
     text-align: center;
 }
-#product-infomation div.col-10 span, #product-accidents div.col-10 span {
+#product-infomation div.col-10 span, #product-accidents div.col-10 span, #medical-cost div.col-10 span, #travel_expenses div.col-10 span {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;

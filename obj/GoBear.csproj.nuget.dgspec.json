@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\GoBear.csproj": {}
+    "C:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\GoBear.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\GoBear.csproj": {
+    "C:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\GoBear.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\GoBear.csproj",
+        "projectUniqueName": "C:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\GoBear.csproj",
         "projectName": "GoBear",
-        "projectPath": "C:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\GoBear.csproj",
+        "projectPath": "C:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\GoBear.csproj",
         "packagesPath": "C:\\Users\\hoaia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hoaia\\source\\repos\\GoBear\\GoBear\\obj\\",
+        "outputPath": "C:\\Users\\hoaia\\OneDrive\\Máy tính\\Go\\GoBear\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\hoaia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
@@ -67,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
